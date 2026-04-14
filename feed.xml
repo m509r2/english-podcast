@@ -12,5 +12,14 @@
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
-  </channel>
+  
+  <item>
+    <title>#1 – Weather and seasons</title>
+    <description>في هذه الحلقة ستتعلم كيف تتحدث عن الطقس وفصول السنة الأربعة باللغة الإنجليزية. ستتعرف على جمل بسيطة وعملية يمكنك استخدامها في حياتك اليومية لوصف حالة الطقس والتحدث عن كل فصل.</description>
+    <pubDate>Tue, 14 Apr 2026 22:49:59 +0300</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3" length="0" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3</guid>
+    <itunes:duration>150</itunes:duration>
+  </item>
+</channel>
 </rss>

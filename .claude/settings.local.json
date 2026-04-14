@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python generate_episode.py)",
+      "Bash(pip install:*)",
+      "Bash(git --version)",
+      "Bash(where git:*)"
+    ]
+  }
+}

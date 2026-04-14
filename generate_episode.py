@@ -1,10 +1,20 @@
 import anthropic
+import os
 import re
 import random
 import subprocess
 from datetime import date
 from email.utils import formatdate
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Always run from the script's directory
+os.chdir(Path(__file__).parent)
+load_dotenv()
+
+# Add ffmpeg to PATH so pydub can find it
+FFMPEG_BIN = r"C:\Users\king2\Downloads\ffmpeg-8.0.1-essentials_build\ffmpeg-8.0.1-essentials_build\bin"
+os.environ["PATH"] = FFMPEG_BIN + ";" + os.environ.get("PATH", "")
 
 from gtts import gTTS
 from pydub import AudioSegment
