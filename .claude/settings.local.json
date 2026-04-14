@@ -4,7 +4,10 @@
       "Bash(python generate_episode.py)",
       "Bash(pip install:*)",
       "Bash(git --version)",
-      "Bash(where git:*)"
+      "Bash(where git:*)",
+      "Bash(C:/Users/king2/Downloads/ffmpeg-8.0.1-essentials_build/ffmpeg-8.0.1-essentials_build/bin/ffprobe.exe:*)",
+      "Bash(\"C:/Users/king2/Downloads/ffmpeg-8.0.1-essentials_build/ffmpeg-8.0.1-essentials_build/bin/ffmpeg.exe\" -i \"C:/Users/king2/Desktop/podcast-agent/episodes/episode_2026-04-14.mp3\" -af \"volumedetect\" -f null /dev/null)",
+      "Bash(python -c ':*)"
     ]
   }
 }

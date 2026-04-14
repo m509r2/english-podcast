@@ -21,5 +21,14 @@
     <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3</guid>
     <itunes:duration>150</itunes:duration>
   </item>
+
+  <item>
+    <title>#2 - Numbers and prices</title>
+    <description>في هذه الحلقة نتعلّم الأرقام الأساسية بالإنجليزية وأهم الجمل المستخدمة عند السؤال عن الأسعار والتسوق. تحتوي الحلقة على سبع جمل بسيطة وعملية مع الترجمة والشرح بالعربية لتساعدك على التعامل بثقة في أي متجر.</description>
+    <pubDate>Tue, 14 Apr 2026 23:11:35 +0300</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3" length="0" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3</guid>
+    <itunes:duration>209</itunes:duration>
+  </item>
 </channel>
 </rss>
