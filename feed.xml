@@ -9,6 +9,7 @@
     <language>en</language>
     <itunes:author>English Podcast</itunes:author>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://m509r2.github.io/english-podcast/cover.jpg"/>
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
