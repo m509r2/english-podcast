@@ -31,5 +31,14 @@
     <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3</guid>
     <itunes:duration>209</itunes:duration>
   </item>
+
+  <item>
+    <title>#3 - Greetings and introductions</title>
+    <description>في هذه الحلقة تتعلم كيف تحيّي الناس وتعرّف بنفسك باللغة الإنجليزية. كلمات مهمة، وست جمل عملية، وحوار حقيقي، واختبار قصير.</description>
+    <pubDate>Sun, 22 Nov 2026 15:29:48 +0300</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_003_2026-11-22.mp3" length="3930668" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_003_2026-11-22.mp3</guid>
+    <itunes:duration>491</itunes:duration>
+  </item>
 </channel>
 </rss>
