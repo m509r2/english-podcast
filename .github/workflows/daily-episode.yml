@@ -1,0 +1,49 @@
+name: Daily episode
+
+on:
+  schedule:
+    # Every day at 06:17 Riyadh time (03:17 UTC)
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build the episode but do not publish"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-episode
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"   # pydub needs audioop (removed in 3.13)
+
+      - name: Install ffmpeg and Python packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          pip install edge-tts pydub python-dotenv
+
+      - name: Configure git
+        run: |
+          git config user.name "podcast-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Build episode (dry run, nothing published)
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run
+        run: python generate_episode.py --no-push
+
+      - name: Build and publish episode
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.dry_run)
+        run: python generate_episode.py
