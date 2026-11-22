@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learn English Daily</title>
+    <title>تعلم الإنجليزية بدون قراءة</title>
     <link>https://m509r2.github.io/english-podcast/</link>
-    <description>دروس إنجليزية يومية 5 دقائق مع شرح بالعربية</description>
-    <language>en</language>
-    <itunes:author>English Podcast</itunes:author>
+    <atom:link href="https://m509r2.github.io/english-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>دروس صوتية قصيرة لتعلم الإنجليزية بالنطق والترجمة بالعربية</description>
+    <language>ar</language>
+    <copyright>Moha</copyright>
+    <itunes:author>Moha</itunes:author>
+    <itunes:summary>دروس صوتية قصيرة لتعلم الإنجليزية بالنطق والترجمة بالعربية</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Moha</itunes:name>
+    </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://m509r2.github.io/english-podcast/cover.jpg"/>
-    <itunes:category text="Education">
-      <itunes:category text="Language Learning"/>
-    </itunes:category>
-  
+    <itunes:category text="Education"/>
+    <itunes:image href="https://m509r2.github.io/english-podcast/cover_spotify.jpg"/>
+
   <item>
-    <title>#1 – Weather and seasons</title>
-    <description>في هذه الحلقة ستتعلم كيف تتحدث عن الطقس وفصول السنة الأربعة باللغة الإنجليزية. ستتعرف على جمل بسيطة وعملية يمكنك استخدامها في حياتك اليومية لوصف حالة الطقس والتحدث عن كل فصل.</description>
-    <pubDate>Tue, 14 Apr 2026 22:49:59 +0300</pubDate>
-    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_001_2026-04-14.mp3" length="603884" type="audio/mpeg"/>
-    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_001_2026-04-14.mp3</guid>
-    <itunes:duration>150</itunes:duration>
+    <title>تعلم الإنجليزية بدون قراءة</title>
+    <description>دروس صوتية قصيرة لتعلم الإنجليزية بالنطق والترجمة بالعربية</description>
+    <pubDate>Thu, 09 Oct 2025 10:19:45 GMT</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/spotify_2025-10-09.mp3" length="1762996" type="audio/mpeg"/>
+    <guid isPermaLink="false">28e93344-95a1-4c88-bd38-e93841f1ee8b</guid>
+    <itunes:duration>110</itunes:duration>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>4</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
   </item>
 
   <item>
-    <title>#2 - Numbers and prices</title>
-    <description>في هذه الحلقة نتعلّم الأرقام الأساسية بالإنجليزية وأهم الجمل المستخدمة عند السؤال عن الأسعار والتسوق. تحتوي الحلقة على سبع جمل بسيطة وعملية مع الترجمة والشرح بالعربية لتساعدك على التعامل بثقة في أي متجر.</description>
-    <pubDate>Tue, 14 Apr 2026 23:11:35 +0300</pubDate>
-    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3" length="1676588" type="audio/mpeg"/>
-    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_2026-04-14.mp3</guid>
-    <itunes:duration>209</itunes:duration>
+    <title>الترحيب اليومي</title>
+    <description>التراحيب اليوميه ومعناها</description>
+    <pubDate>Mon, 15 Dec 2025 19:55:30 GMT</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/spotify_2025-12-15.mp3" length="486912" type="audio/mpeg"/>
+    <guid isPermaLink="false">6bb94247-a6fe-469f-bef3-205f513d8bf4</guid>
+    <itunes:duration>60</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
   </item>
 
   <item>
-    <title>#3 - Greetings and introductions</title>
+    <title>التحيات والتعارف</title>
     <description>في هذه الحلقة تتعلم كيف تحيّي الناس وتعرّف بنفسك باللغة الإنجليزية. كلمات مهمة، وست جمل عملية، وحوار حقيقي، واختبار قصير.</description>
     <pubDate>Sun, 22 Nov 2026 15:29:48 +0300</pubDate>
     <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_003_2026-11-22.mp3" length="3930668" type="audio/mpeg"/>
     <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_003_2026-11-22.mp3</guid>
     <itunes:duration>491</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
   </item>
 </channel>
 </rss>

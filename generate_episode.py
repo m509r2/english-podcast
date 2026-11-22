@@ -14,6 +14,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import shutil
 import subprocess
 import time
@@ -292,8 +293,10 @@ def main():
     print(f"Duration: {duration_secs}s")
 
     episode_url = f"{BASE_URL}/episodes/{final_mp3.name}"
+    # Show style: plain Arabic title, no number, no diacritics
+    title = re.sub(r"[ً-ْٰ]", "", lesson["topic_ar"])
     add_to_feed(
-        title=f"#{episode_num} - {lesson['topic']}",
+        title=title,
         url=episode_url,
         pub_date=formatdate(localtime=True),
         description=lesson["description"],
