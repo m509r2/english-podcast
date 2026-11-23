@@ -51,5 +51,14 @@
     <itunes:duration>491</itunes:duration>
     <itunes:episodeType>full</itunes:episodeType>
   </item>
+
+  <item>
+    <title>الروتين اليومي</title>
+    <description>في هذه الحلقة تتعلم كيف تتحدث عن روتينك اليومي باللغة الإنجليزية، من الاستيقاظ حتى النوم. كلمات مهمة، وست جمل عملية، وحوار حقيقي، واختبار قصير.</description>
+    <pubDate>Mon, 23 Nov 2026 10:10:59 +0000</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_004_2026-11-23.mp3" length="4092140" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_004_2026-11-23.mp3</guid>
+    <itunes:duration>511</itunes:duration>
+  </item>
 </channel>
 </rss>
