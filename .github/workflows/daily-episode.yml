@@ -2,8 +2,11 @@
 
 on:
   schedule:
-    # Every day at 06:17 Riyadh time (03:17 UTC)
+    # Every day at 06:17 Riyadh time (03:17 UTC), plus two backups in case
+    # GitHub skips or delays a scheduled run. --once-per-day prevents duplicates.
     - cron: "17 3 * * *"
+    - cron: "43 6 * * *"
+    - cron: "23 10 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -46,4 +49,4 @@ jobs:
 
       - name: Build and publish episode
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.dry_run)
-        run: python generate_episode.py
+        run: python generate_episode.py --once-per-day

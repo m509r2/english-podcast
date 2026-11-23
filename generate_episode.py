@@ -269,7 +269,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--preview", metavar="LESSON_ID", help="build preview/<id>.mp3 only")
     ap.add_argument("--no-push", action="store_true", help="do not commit/push")
+    ap.add_argument("--once-per-day", action="store_true",
+                    help="do nothing if today's episode already exists (for backup schedules)")
     args = ap.parse_args()
+
+    if args.once_per_day and list(Path("episodes").glob(f"episode_*_{date.today().isoformat()}.mp3")):
+        print("Today's episode already published. Nothing to do.")
+        return
 
     if args.preview:
         lesson, following = pick_lesson(args.preview)
