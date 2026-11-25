@@ -3,3 +3,4 @@ numbers
 greetings
 daily-routines
 restaurant
+shopping

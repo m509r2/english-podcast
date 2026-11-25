@@ -69,5 +69,14 @@
     <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_005_2026-11-24.mp3</guid>
     <itunes:duration>538</itunes:duration>
   </item>
+
+  <item>
+    <title>أساسيات التسوق</title>
+    <description>في هذه الحلقة تتعلم كيف تتسوق باللغة الإنجليزية، من البحث عن الشيء حتى الدفع. كلمات مهمة، وست جمل عملية، وحوار حقيقي، واختبار قصير.</description>
+    <pubDate>Wed, 25 Nov 2026 13:03:36 +0000</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_006_2026-11-25.mp3" length="4227692" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_006_2026-11-25.mp3</guid>
+    <itunes:duration>528</itunes:duration>
+  </item>
 </channel>
 </rss>
