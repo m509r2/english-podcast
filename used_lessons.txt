@@ -4,3 +4,4 @@ greetings
 daily-routines
 restaurant
 shopping
+directions

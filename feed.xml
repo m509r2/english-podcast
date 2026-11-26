@@ -78,5 +78,14 @@
     <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_006_2026-11-25.mp3</guid>
     <itunes:duration>528</itunes:duration>
   </item>
+
+  <item>
+    <title>السؤال عن الاتجاهات</title>
+    <description>في هذه الحلقة تتعلم كيف تسأل عن الطريق وتفهم الاتجاهات باللغة الإنجليزية. كلمات مهمة، وست جمل عملية، وحوار حقيقي، واختبار قصير.</description>
+    <pubDate>Thu, 26 Nov 2026 12:44:15 +0000</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_007_2026-11-26.mp3" length="4063148" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_007_2026-11-26.mp3</guid>
+    <itunes:duration>507</itunes:duration>
+  </item>
 </channel>
 </rss>
