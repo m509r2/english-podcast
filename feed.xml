@@ -87,5 +87,14 @@
     <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_007_2026-11-26.mp3</guid>
     <itunes:duration>507</itunes:duration>
   </item>
+
+  <item>
+    <title>الحديث عن العائلة</title>
+    <description>في هذه الحلقة تتعلم كيف تتحدث عن عائلتك باللغة الإنجليزية. كلمات مهمة، وست جمل عملية، وحوار حقيقي، واختبار قصير.</description>
+    <pubDate>Fri, 27 Nov 2026 12:32:47 +0000</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_008_2026-11-27.mp3" length="4164140" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_008_2026-11-27.mp3</guid>
+    <itunes:duration>520</itunes:duration>
+  </item>
 </channel>
 </rss>
