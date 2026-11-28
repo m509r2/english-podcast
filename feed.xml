@@ -96,5 +96,14 @@
     <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_008_2026-11-27.mp3</guid>
     <itunes:duration>520</itunes:duration>
   </item>
+
+  <item>
+    <title>الصحة ومواعيد الطبيب</title>
+    <description>في هذه الحلقة تتعلم كيف تتحدث مع الطبيب وتصف ما تشعر به باللغة الإنجليزية. كلمات مهمة، وست جمل عملية، وحوار حقيقي، واختبار قصير.</description>
+    <pubDate>Sat, 28 Nov 2026 11:54:44 +0000</pubDate>
+    <enclosure url="https://m509r2.github.io/english-podcast/episodes/episode_009_2026-11-28.mp3" length="4125932" type="audio/mpeg"/>
+    <guid isPermaLink="true">https://m509r2.github.io/english-podcast/episodes/episode_009_2026-11-28.mp3</guid>
+    <itunes:duration>515</itunes:duration>
+  </item>
 </channel>
 </rss>
